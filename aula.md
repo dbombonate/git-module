@@ -68,3 +68,4 @@ Ex: git rm nome_do_arquivo
 
 Cria um snapshot do arquivo, uma cópia daquele momento do estado do arquivo.
 Ex: git commit -m "Mensagem do commit"
+    git commit -a -m "Mensagem do commit" -> Remove a necessidade de dar um git add antes do commit
