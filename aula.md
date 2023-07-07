@@ -69,3 +69,9 @@ Ex: git rm nome_do_arquivo
 Cria um snapshot do arquivo, uma cópia daquele momento do estado do arquivo.
 Ex: git commit -m "Mensagem do commit"
     git commit -a -m "Mensagem do commit" -> Remove a necessidade de dar um git add antes do commit
+
+### Git log
+
+Permite verificar o histórico de alterações realizadas na branch ou em arquivos especificos.
+Ex: git log
+    git log -p <nome_do_arquivo>
