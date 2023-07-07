@@ -75,3 +75,8 @@ Ex: git commit -m "Mensagem do commit"
 Permite verificar o histórico de alterações realizadas na branch ou em arquivos especificos.
 Ex: git log
     git log -p <nome_do_arquivo>
+
+### Git reset
+Permite remover alterações nos arquivos com base nos commits.
+Ex: git reset --soft HEAD~1 -> Remove o commit e deixa o arquivo no estado de modificado
+    git reset --hard -> Volta o arquivo ou arquivos para o último commit válido
