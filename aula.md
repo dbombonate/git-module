@@ -67,4 +67,4 @@ Ex: git rm nome_do_arquivo
 ### Git commit
 
 Cria um snapshot do arquivo, uma cópia daquele momento do estado do arquivo.
-Ex: git commit
+Ex: git commit -m "Mensagem do commit"
