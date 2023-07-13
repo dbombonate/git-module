@@ -14,6 +14,9 @@ Conceito de ramificação de projeto
 Cria uma nova branch, somente.
 Ex: git branch feature/nome_da_feature
 
+Para renomear a branch, add o parâmetro -m
+Ex: git branch -m feature/novo_nome_da_branch
+
 ### Git Checkout nome-da-branch
 
 Altera a branch, somente.
