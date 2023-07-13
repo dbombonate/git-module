@@ -27,3 +27,11 @@ Ex: git branch -D feature/novo_nome_da_branch
 
 Altera a branch, somente.
 Ex: git checkout feature/nome_da_feature
+
+Cria a branch e altera o contexto, add o parametro -b
+Ex: git checkout -b feature/nome_da_feature
+
+### Git Merge nome-da-branch
+
+Faz a junção do código da branch main com a branch em desenvolvimento trazendo todos os commits e criando um novo commit na branch principal.
+Ex: git merge feature/nome_da_feature
