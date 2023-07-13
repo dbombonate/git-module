@@ -80,3 +80,4 @@ Ex: git log
 Permite remover alterações nos arquivos com base nos commits.
 Ex: git reset --soft HEAD~1 -> Remove o commit e deixa o arquivo no estado de modificado
     git reset --hard -> Volta o arquivo ou arquivos para o último commit válido
+    
