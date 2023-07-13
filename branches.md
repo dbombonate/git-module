@@ -17,6 +17,12 @@ Ex: git branch feature/nome_da_feature
 Para renomear a branch, add o parâmetro -m
 Ex: git branch -m feature/novo_nome_da_branch
 
+Para remover uma branch sem commit, add o parâmetro -d
+Ex: git branch -d feature/novo_nome_da_branch
+
+Para remover uma branch que possui commits e não foi mergeada, add o parâmetro -D
+Ex: git branch -D feature/novo_nome_da_branch
+
 ### Git Checkout nome-da-branch
 
 Altera a branch, somente.
