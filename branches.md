@@ -35,3 +35,10 @@ Ex: git checkout -b feature/nome_da_feature
 
 Faz a junção do código da branch main com a branch em desenvolvimento trazendo todos os commits e criando um novo commit na branch principal.
 Ex: git merge feature/nome_da_feature
+
+### Git rebase nome-da-branch
+
+Faz a junção do código da branch main com a branch em desenvolvimento trazendo todos os commits somente para a branch principal.
+Ex: git merge feature/nome_da_feature
+
+OBS: Não muito recomendado porque não respeita o histórico de alterações. Pode ser usado para trazer algum fix ou feature para uma branch de feature, mas não para unificar na branch principal.
