@@ -42,3 +42,9 @@ Faz a junção do código da branch main com a branch em desenvolvimento trazend
 Ex: git merge feature/nome_da_feature
 
 OBS: Não muito recomendado porque não respeita o histórico de alterações. Pode ser usado para trazer algum fix ou feature para uma branch de feature, mas não para unificar na branch principal.
+
+### Git cherry-pick <hash_do_commit>
+Faz a junção do código de uma branch específica.
+Ex: git cherry-pick <hash_do_commit>
+
+OBS: Usado para pegar commits de outras branchs sem necessidade de aguardar a execução de um rebase ou um merge na branch principal. Muito usado para trazer hotfix a uma branch específica.
