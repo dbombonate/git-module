@@ -80,4 +80,9 @@ Ex: git log
 Permite remover alterações nos arquivos com base nos commits.
 Ex: git reset --soft HEAD~1 -> Remove o commit e deixa o arquivo no estado de modificado
     git reset --hard -> Volta o arquivo ou arquivos para o último commit válido
-    
+
+### Git tag
+Usado para criar marcos no projeto, criar versões do projeto entregue.
+Ex: git tag -a <nome_da_tag> -m "MSG_PARA_CRIAR_A_TAG"
+    git tag -a <nome_da_tag> -m "MSG_PARA_CRIAR_A_TAG" <hash_do_commit_marco> -> Criar tag após a existência de outra tag
+    git tag -d <nome_da_tag> -> Deletar tag
