@@ -86,3 +86,16 @@ Usado para criar marcos no projeto, criar versões do projeto entregue.
 Ex: git tag -a <nome_da_tag> -m "MSG_PARA_CRIAR_A_TAG"
     git tag -a <nome_da_tag> -m "MSG_PARA_CRIAR_A_TAG" <hash_do_commit_marco> -> Criar tag após a existência de outra tag
     git tag -d <nome_da_tag> -> Deletar tag
+
+### Git clone
+Permite clonar um repositório remoto para seu PC.
+Ex: git clone <endereço_do_repo> -> Faz o clone de um repositório remoto para o seu PC
+
+### Git push
+Permite enviar as alterações do seu repositório local para o remoto.
+Ex: git push -> Faz o envio das alterações locais para o repositório remoto.
+    git push --set-upstream origin <branch> -> Determina a branch local no repositório remoto.
+
+### Git pull
+Permite copiar as alterações presentes no repositório remoto para o PC local.
+Ex: git pull -> Faz a cópia das alterações remotas para o PC local.
