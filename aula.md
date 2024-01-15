@@ -76,6 +76,7 @@ Permite verificar o histórico de alterações realizadas na branch ou em arquiv
 Ex: git log
     git log -p <nome_do_arquivo>
     git log --stats -> Permite ver estatísticas no histórico de alterações.
+    git log --oneline -> Permite ver as alterações em uma única linha.
 
 ### Git reset
 Permite remover alterações nos arquivos com base nos commits.
